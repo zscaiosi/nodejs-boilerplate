@@ -3,7 +3,7 @@ let path = require('path');
 require('dotenv').config();
 
 console.log("****** ENVIRONMENT ******");
-console.log(process.env);
+console.log(process.env.NODE_ENV);
 console.log("****** ---- ******");
 
 let mode = process.env.NODE_ENV;
