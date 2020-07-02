@@ -1,4 +1,10 @@
 let path = require('path');
+// Loads all .env variables
+require('dotenv').config();
+
+console.log("****** ENVIRONMENT ******");
+console.log(process.env);
+console.log("****** ---- ******");
 
 let mode = process.env.NODE_ENV;
 

@@ -7,7 +7,7 @@ import {
 } from './entities/index';
 // Here is the entry point for the module, where other modules will call and have access to its APIs
 // Replace with your module name, signature and implementation
-const index = (opts?: any): any => {
+const main = (opts?: any): any => {
     let d = new Default();
 
     d.setDefault(1);
@@ -15,4 +15,4 @@ const index = (opts?: any): any => {
     return d.getDefault();
 };
 
-export default index;
+export default main;
